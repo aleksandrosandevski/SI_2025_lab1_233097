@@ -1,0 +1,15 @@
+*   3c45b4f Merge branch 'master' of https://github.com/aleksandrosandevski/SI_2025_lab1_233097
+|\  
+| *   1f2bbee Merge pull request #11 from aleksandrosandevski/5-filter-tasks-by-category
+| |\  
+| | * 4b32a32 Implement filter tasks by category
+| * |   56927d0 Merge pull request #12 from aleksandrosandevski/8-mark-a-task-as-completed-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * 2358aba Implement mark a task as completed by name
+| |/  
+* / 77fdf00 Implement remove a task by name
+|/  
+* 6e3bdcf Add starter code
+* 3278bc9 Initial commit

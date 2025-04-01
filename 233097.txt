@@ -1,0 +1,80 @@
+
+$ pwd
+
+$ cd Documents
+
+$ mkdir SI_2025_lab1_233097
+
+$ cd SI_2025_lab1_233097
+
+$ git init
+
+$ git status
+
+$ git remote add origin https://github.com/aleksandrosandevski/SI_2025_lab1_233097.git
+
+$ nano README.md
+
+$ git add README.md
+
+$ git commit -a -m "Initial commit"
+
+$ ls -a
+./  ../  .git/  README.md  SI2025Lab1Main.java
+
+$ git status
+
+$ git add SI2025Lab1Main.java
+
+$ git commit SI2025Lab1Main.java -m "Add starter code"
+
+$ git branch -M master
+
+$ git push -u origin master
+
+$ git branch -a
+
+$ git fetch origin
+
+$ git checkout 1-remove-a-task-by-name
+
+$ ls
+
+$ git add SI2025Lab1Main.java
+
+$ git commit -m "Implement remove a task by name"
+
+$ git push -u origin 1-remove-a-task-by-name
+
+$ git checkout 5-filter-tasks-by-category
+
+$ git add SI2025Lab1Main.java
+
+$ git commit -m "Implement filter tasks by category"
+
+$ git push -u origin 5-filter-tasks-by-category
+
+$ git checkout 8-mark-a-task-as-completed-by-name
+
+$ git add SI2025Lab1Main.java
+
+$ git commit -m "Implement mark a task as completed by name"
+
+$ git push -u origin 8-mark-a-task-as-completed-by-name
+
+$ git checkout master
+
+$ git merge 1-remove-a-task-by-name
+
+$ git push origin master
+
+$ git pull
+
+$ git push origin master
+
+$ git log --oneline --graph --all
+
+$ git log --oneline --graph --all > logs.txt
+
+$ nano logs.txt
+
